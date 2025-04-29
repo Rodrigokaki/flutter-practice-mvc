@@ -72,12 +72,10 @@ class _HomeScreenState extends State<HomeScreen> {
             right: 0,
             child: Center (
               child: SizedBox(
-                height: 45,
+                height: 55,
                 width: 180,
                 child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: AppColors.lightGray,
-                  ),
+                  style: AppTextStyles.lightRoundedButton(),
                   onPressed: () {
                     NavigationController.goTo(context, '/second');
                   },

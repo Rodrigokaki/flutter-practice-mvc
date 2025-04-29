@@ -4,11 +4,11 @@ class AppColors {
   static const Color white = Color (0xFFFFFFFF); 
   static const Color black = Colors.black;
   static const Color lightGray = Color (0xFFD3D3D3); 
-  static const Color appBarBlue = Color(0xFF1976D2);
+  static const Color appBar = Color(0xFF5A8AE0);
 
-  static const Color buttonOrange = Color (0xFFFF9800); 
-  static const Color buttonBlue = Color (0xFF2196F3); 
-  static const Color buttonLightGray = Color (0xFFF5F5F5);
+  static const Color button1 = Color (0xFF5ADEE0); 
+  static const Color button2 = Color (0xFF815AE0); 
+  static const Color buttonHome = Color.fromARGB(255, 54, 132, 163);
 }
 class AppTextStyles {
   static const TextStyle clockText = TextStyle(
@@ -38,7 +38,8 @@ class AppTextStyles {
 
   static const TextStyle defaultText = TextStyle(
     color: AppColors.black,
-    fontSize: 20
+    fontFamily: 'Sakitu',
+    fontSize: 40
   );
 
   // Botão arredondado padrão (personalizável pela cor)
@@ -55,7 +56,7 @@ class AppTextStyles {
   // Botão com fundo claro e borda arredondada
   static ButtonStyle lightRoundedButton(){
     return ElevatedButton.styleFrom(
-      backgroundColor: AppColors.buttonLightGray,
+      backgroundColor: AppColors.buttonHome,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(30)
       ),

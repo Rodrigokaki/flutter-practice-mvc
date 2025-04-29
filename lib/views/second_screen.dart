@@ -35,7 +35,7 @@ class SecondScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     ElevatedButton(
-                      style: AppTextStyles.roundedButton(AppColors.buttonOrange),
+                      style: AppTextStyles.roundedButton(AppColors.button1),
                       onPressed: () {
                         NavigationController.goTo(context, '/third');
                       },
@@ -46,7 +46,7 @@ class SecondScreen extends StatelessWidget {
                     ),
                     const SizedBox(width: 20),
                     ElevatedButton(
-                      style: AppTextStyles.roundedButton(AppColors.buttonBlue),
+                      style: AppTextStyles.roundedButton(AppColors.button2),
                       onPressed: () {
                         NavigationController.goTo(context, '/fourth');
                       },
