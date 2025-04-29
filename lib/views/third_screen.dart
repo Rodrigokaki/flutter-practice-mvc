@@ -10,7 +10,7 @@ class ThirdScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomAppBar(showBackButton: true),
+      appBar: const CustomAppBar(nextPage: '/fourth', showBackButton: true),
       body: Stack(
         children: [
           Container(
