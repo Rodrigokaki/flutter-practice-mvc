@@ -86,6 +86,8 @@ class AppSpacing {
   static const double garfieldSpaceBetweenTextAndButton = 20;
   static const double garfieldSpaceAfterButtons = 20;
   static const double garfieldBottomPadding = 20;
+  static const double garfieldImageHeight = 500;
+  static const double garfieldImageWidth = 500;
 
   // Mickey Screen
   static const double mickeyTopPadding = 100;
