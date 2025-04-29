@@ -26,7 +26,7 @@ class ProjetoP1Topicos extends StatelessWidget {
         '/second': (context) => const SecondScreen(), 
         '/third': (context) => const ThirdScreen(), 
         '/fourth': (context) => const FourthScreen(),
-        //'/fifth': (context) => const FifthScreen(),
+        '/fifth': (context) => const FifthScreen(),
       },
     );
   }

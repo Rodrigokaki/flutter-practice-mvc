@@ -95,11 +95,19 @@ class AppSpacing {
   static const double mickeySpaceAfterButtons = 20;
   static const double mickeyBottomPadding = 20;
 
-  //Snoopy Screen
+  // Snoopy Screen
   static const double snoopyTopPadding = 480;
   static const double snoopyLeftPadding = 20;
   static const double snoopyRightPadding = 20;
   static const double snoopySpaceBetweenTextAndButton = 20;
   static const double snoopySpaceAfterButtons = 20;
   static const double snoopyBottomPadding = 20;
+
+  // Superman Screen
+  static const double supermanTopPadding = 480;
+  static const double supermanLeftPadding = 20;
+  static const double supermanRightPadding = 20;
+  static const double supermanSpaceBetweenTextAndButton = 20;
+  static const double supermanSpaceAfterButtons = 20;
+  static const double supermanBottomPadding = 20;
 }
