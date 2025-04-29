@@ -59,12 +59,12 @@ class SecondScreen extends StatelessWidget {
                 ),
                 SizedBox(height: AppSpacing.snoopySpaceBetweenTextAndButton),
                 const Text(
-                  'Avaliação P1',
+                  'Atividade MVC',
                   style: AppTextStyles.defaultText,
                   textAlign: TextAlign.center,
                 ),
                 const Text(
-                  'Tópicos Avançados',
+                  'Aprendendo Flutter',
                   style: AppTextStyles.defaultText,
                   textAlign: TextAlign.center,
                 ),

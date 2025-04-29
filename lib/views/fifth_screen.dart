@@ -32,12 +32,12 @@ class FifthScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 const Text(
-                  'Avaliação P1',
+                  'Atividade MVC',
                   style: AppTextStyles.defaultText,
                   textAlign: TextAlign.center,
                 ),
                 const Text(
-                  'Tópicos Avançados',
+                  'Aprendendo Flutter',
                   style: AppTextStyles.defaultText,
                   textAlign: TextAlign.center,
                 ),
