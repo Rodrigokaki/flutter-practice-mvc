@@ -1,10 +1,10 @@
 # aula_mvc
 
-A new Flutter project.
+Flutter practice
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is for training purposes.
 
 A few resources to get you started if this is your first Flutter project:
 
