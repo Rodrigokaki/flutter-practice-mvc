@@ -80,7 +80,7 @@ class AppTextStyles {
 
 class AppSpacing {
   // Garfield Screen
-  static const double garfieldTopPadding = 480;
+  static const double garfieldTopPadding = 20;
   static const double garfieldLeftPadding = 20;
   static const double garfieldRightPadding = 20;
   static const double garfieldSpaceBetweenTextAndButton = 20;
@@ -96,15 +96,15 @@ class AppSpacing {
   static const double mickeyBottomPadding = 20;
 
   // Snoopy Screen
-  static const double snoopyTopPadding = 480;
+  static const double snoopyTopPadding = 50;
   static const double snoopyLeftPadding = 20;
   static const double snoopyRightPadding = 20;
-  static const double snoopySpaceBetweenTextAndButton = 20;
+  static const double snoopySpaceBetweenTextAndButton = 80;
   static const double snoopySpaceAfterButtons = 20;
   static const double snoopyBottomPadding = 20;
 
   // Superman Screen
-  static const double supermanTopPadding = 480;
+  static const double supermanTopPadding = 40;
   static const double supermanLeftPadding = 20;
   static const double supermanRightPadding = 20;
   static const double supermanSpaceBetweenTextAndButton = 20;

@@ -31,17 +31,6 @@ class SecondScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                const Text(
-                  'Avaliação P1',
-                  style: AppTextStyles.defaultText,
-                  textAlign: TextAlign.center,
-                ),
-                const Text(
-                  'Tópicos Avançados',
-                  style: AppTextStyles.defaultText,
-                  textAlign: TextAlign.center,
-                ),
-                SizedBox(height: AppSpacing.snoopySpaceBetweenTextAndButton),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -67,7 +56,18 @@ class SecondScreen extends StatelessWidget {
                       ),
                     )
                   ],
-                )
+                ),
+                SizedBox(height: AppSpacing.snoopySpaceBetweenTextAndButton),
+                const Text(
+                  'Avaliação P1',
+                  style: AppTextStyles.defaultText,
+                  textAlign: TextAlign.center,
+                ),
+                const Text(
+                  'Tópicos Avançados',
+                  style: AppTextStyles.defaultText,
+                  textAlign: TextAlign.center,
+                ),
               ],
             ),
           )

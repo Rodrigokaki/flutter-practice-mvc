@@ -31,17 +31,6 @@ class FourthScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                const Text(
-                  'Avaliação P1',
-                  style: AppTextStyles.defaultText,
-                  textAlign: TextAlign.center,
-                ),
-                const Text(
-                  'Tópicos Avançados',
-                  style: AppTextStyles.defaultText,
-                  textAlign: TextAlign.center,
-                ),
-                SizedBox(height: AppSpacing.mickeySpaceBetweenTextAndButton),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -67,7 +56,18 @@ class FourthScreen extends StatelessWidget {
                       ),
                     )
                   ],
-                )
+                ),
+                SizedBox(height: AppSpacing.mickeySpaceBetweenTextAndButton),
+                const Text(
+                  'Avaliação P1',
+                  style: AppTextStyles.defaultText,
+                  textAlign: TextAlign.center,
+                ),
+                const Text(
+                  'Tópicos Avançados',
+                  style: AppTextStyles.defaultText,
+                  textAlign: TextAlign.center,
+                ),
               ],
             ),
           )
