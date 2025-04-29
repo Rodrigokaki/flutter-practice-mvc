@@ -29,3 +29,77 @@ class AppTextStyles {
     fontSize: 18,
     fontWeight: FontWeight.bold,
   );
+
+  static const TextStyle appBarText = TextStyle(
+    color: AppColors.white,
+    fontSize: 20,
+    fontWeight: FontWeight.bold
+  );
+
+  static const TextStyle defaultText = TextStyle(
+    color: AppColors.black,
+    fontSize: 20
+  );
+
+  // Botão arredondado padrão (personalizável pela cor)
+  static ButtonStyle roundedButton(Color backgroundColor){
+    return ElevatedButton.styleFrom(
+      backgroundColor: backgroundColor,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(30)
+      ),
+      padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 12)
+    );
+  }
+
+  // Botão com fundo claro e borda arredondada
+  static ButtonStyle lightRoundedButton(){
+    return ElevatedButton.styleFrom(
+      backgroundColor: AppColors.buttonLightGray,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(30)
+      ),
+      padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 14)
+    );
+  }
+
+  // Botão com sombra sutil (opcional para fundo escuro)
+  static ButtonStyle roundedButtonWithShadow(Color backgroundColor){
+    return ElevatedButton.styleFrom(
+      backgroundColor: backgroundColor,
+      elevation: 6,
+      // ignore: deprecated_member_use
+      shadowColor: Colors.black.withOpacity(0.4),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(30)
+      ),
+      padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 14)
+    );
+  }
+}
+
+class AppSpacing {
+  // Garfield Screen
+  static const double garfieldTopPadding = 480;
+  static const double garfieldLeftPadding = 20;
+  static const double garfieldRightPadding = 20;
+  static const double garfieldSpaceBetweenTextAndButton = 20;
+  static const double garfieldSpaceAfterButtons = 20;
+  static const double garfieldBottomPadding = 20;
+
+  // Mickey Screen
+  static const double mickeyTopPadding = 100;
+  static const double mickeyLeftPadding = 20;
+  static const double mickeyRightPadding = 20;
+  static const double mickeySpaceBetweenTextAndButton = 60;
+  static const double mickeySpaceAfterButtons = 20;
+  static const double mickeyBottomPadding = 20;
+
+  //Snoopy Screen
+  static const double snoopyTopPadding = 480;
+  static const double snoopyLeftPadding = 20;
+  static const double snoopyRightPadding = 20;
+  static const double snoopySpaceBetweenTextAndButton = 20;
+  static const double snoopySpaceAfterButtons = 20;
+  static const double snoopyBottomPadding = 20;
+}
